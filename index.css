@@ -28,6 +28,15 @@ input:focus {
     margin: auto;
     margin-top: 200px;
 }
+@media screen and (max-width:510px) {
+
+    .main, input{
+        max-width: 200px;
+    }
+    #btn {
+        margin-top: 20px;
+    }
+}
 #btn {
     color: #f1f1f1;
     border: none;
