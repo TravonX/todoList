@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todoList</title>
+    <!--    Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--Link to css file-->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main">
+    <!--Make an input field-->
+    <input type="text" id="inputField">
+    <!--Add a button to push lists-->
+    <button id="btn">Add</button> <br> 
+    <ol id="listItems">
+
+    </ol>
+    </div>
+    <!--Link to javascript file-->
+    <script src="script.js">
+        $("#remove").click(function(){
+            $(this).parent().remove();
+        })
+    </script>
+</body>
+</html>
